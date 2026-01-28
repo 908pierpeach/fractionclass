@@ -28,6 +28,8 @@ public:
 	Fraction(int top = 0, int bottom = 1) {
 		num = top;
 		den = bottom;
+		gcd(num, den);
+
 	}
 
 	//overload the << operator: see definition below class
